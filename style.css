@@ -107,18 +107,18 @@ section {
 
 .home-content .text-animate {
     position: relative;
-    width: 32.8rem;
+    width: 62.8rem;
 }
 
 .home-content .text-animate h3 {
-    font-size: 3.2rem;
+    font-size: 2.2rem;
     font-weight: 700;
     color: transparent;
     -webkit-text-stroke: .7px var(--main-color);
     background-image: linear-gradient(var(--main-color), var(--main-color));
     background-repeat: no-repeat;
     -webkit-background-clip: text;
-    background-position: -33rem 0;
+    background-position: -33rem -33rem;
 }
 
 .home.show-animate .home-content .text-animate h3 {
@@ -144,7 +144,7 @@ section {
 
 .home-content p {
     position: relative;
-    font-size: 1.6rem;
+    font-size: 1.3rem;
     margin: 2rem 0 4rem;
 }
 
