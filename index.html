@@ -10,6 +10,8 @@
 
     <!-- box icons -->
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
 </head>
 
 <body>
@@ -60,6 +62,17 @@
 
         <div class="home-imgHover"></div>
         <span class="animate home-img" style="--i:7;"></span>
+
+        <div class="model-viewer-container">
+            <model-viewer
+                src="./models/emotional_ai_assistant_with_hyper-realistic_ava.glb"
+                alt="AI Assistant Avatar"
+                auto-rotate
+                camera-controls
+                ar
+                style="width: 100%; height: 100%;">
+            </model-viewer>
+        </div>
     </section>
 
     <!-- about section design -->
